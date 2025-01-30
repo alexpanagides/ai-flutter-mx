@@ -20,6 +20,7 @@ class App extends StatelessWidget {
   static const title = 'Example: Firebase Vertex AI';
 
   const App({super.key});
+
   @override
   Widget build(BuildContext context) => const MaterialApp(
         title: title,
@@ -33,12 +34,6 @@ class ChatPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(title: const Text(App.title)),
-        body: LlmChatView(
-          provider: VertexProvider(
-            model: FirebaseVertexAI.instance.generativeModel(
-              model: 'gemini-1.5-flash',
-            ),
-          ),
-        ),
+        body: Text('Unimplemented'),
       );
 }

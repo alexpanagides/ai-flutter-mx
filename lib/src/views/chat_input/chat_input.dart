@@ -156,12 +156,12 @@ class _ChatInputState extends State<ChatInput> {
                     builder: (context, child) => Row(
                       crossAxisAlignment: CrossAxisAlignment.end,
                       children: [
-                        Padding(
-                          padding: const EdgeInsets.only(bottom: 14),
-                          child: AttachmentActionBar(
-                            onAttachments: onAttachments,
-                          ),
-                        ),
+                        // Padding(
+                        //   padding: const EdgeInsets.only(bottom: 14),
+                        //   child: AttachmentActionBar(
+                        //     onAttachments: onAttachments,
+                        //   ),
+                        // ),
                         Expanded(
                           child: Stack(
                             children: [

@@ -4,7 +4,7 @@
 
 export 'implementations/echo_provider.dart';
 export 'implementations/gemini_provider.dart';
-export 'implementations/vertex_provider.dart';
+// export 'implementations/vertex_provider.dart';
 export 'interface/attachments.dart';
 export 'interface/chat_message.dart';
 export 'interface/llm_provider.dart';
