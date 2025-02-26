@@ -16,7 +16,7 @@ import '../../styles/chat_input_style.dart';
 import '../../styles/llm_chat_view_style.dart';
 import '../../utility.dart';
 import '../chat_text_field.dart';
-import 'attachments_action_bar.dart';
+// import 'attachments_action_bar.dart';
 import 'attachments_view.dart';
 import 'editing_indicator.dart';
 import 'input_button.dart';
@@ -156,6 +156,7 @@ class _ChatInputState extends State<ChatInput> {
                     builder: (context, child) => Row(
                       crossAxisAlignment: CrossAxisAlignment.end,
                       children: [
+                        // mxHERO
                         // Padding(
                         //   padding: const EdgeInsets.only(bottom: 14),
                         //   child: AttachmentActionBar(
@@ -252,7 +253,8 @@ class _ChatInputState extends State<ChatInput> {
     if (_waveController.isRecording) return InputState.isRecording;
     if (widget.onCancelMessage != null) return InputState.canCancelPrompt;
     if (widget.onCancelStt != null) return InputState.canCancelStt;
-    if (_textController.text.trim().isEmpty) return InputState.canStt;
+    // mxHERO
+    // if (_textController.text.trim().isEmpty) return InputState.canStt;
     return InputState.canSubmitPrompt;
   }
 

@@ -3,9 +3,7 @@
 // found in the LICENSE file.
 
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_vertexai/firebase_vertexai.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_ai_toolkit/flutter_ai_toolkit.dart';
 
 // from `flutterfire config`: https://firebase.google.com/docs/flutter/setup
 import '../firebase_options.dart';
